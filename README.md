@@ -18,18 +18,18 @@ npm install
 
 
 
-# Abre el archivo package.json y reemplaza el valor de "name" por el nombre de tu nuevo proyecto, por ejemplo:
+## Abre el archivo package.json y reemplaza el valor de "name" por el nombre de tu nuevo proyecto, por ejemplo:
 
 
 {
   "name": "mi-nuevo-proyecto",
 }
-# Cambia el título de la página en src/template.html para que coincida con tu proyecto.
+## Cambia el título de la página en src/template.html para que coincida con tu proyecto.
 
 <title>mi-nuevo-proyecto</title>
 
 
-# Inicializa Git y haz el primer commit:
+## Inicializa Git y haz el primer commit:
 [Ir a Inicializa Git y haz el primer commit](#inicializa-git-y-haz-el-primer-commit)
 
 git init
@@ -40,7 +40,7 @@ git remote add origin https://github.com/SunAndBoats/mi-nuevo-proyecto.git
 git push -u origin main
 
 
-#Comandos disponibles
+## Comandos disponibles
 npm run dev — Inicia el servidor de desarrollo con hot reload.
 
 npm run build — Compila y transpila el código para producción en la carpeta /dist.
